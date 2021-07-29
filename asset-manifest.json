@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/moes-portfolio-site/static/css/main.a617e044.chunk.css",
-    "main.js": "/moes-portfolio-site/static/js/main.1e0a8ec8.chunk.js",
-    "main.js.map": "/moes-portfolio-site/static/js/main.1e0a8ec8.chunk.js.map",
-    "runtime-main.js": "/moes-portfolio-site/static/js/runtime-main.86096c1e.js",
-    "runtime-main.js.map": "/moes-portfolio-site/static/js/runtime-main.86096c1e.js.map",
-    "static/js/2.27c989f6.chunk.js": "/moes-portfolio-site/static/js/2.27c989f6.chunk.js",
-    "static/js/2.27c989f6.chunk.js.map": "/moes-portfolio-site/static/js/2.27c989f6.chunk.js.map",
-    "static/js/3.985dfd25.chunk.js": "/moes-portfolio-site/static/js/3.985dfd25.chunk.js",
-    "static/js/3.985dfd25.chunk.js.map": "/moes-portfolio-site/static/js/3.985dfd25.chunk.js.map",
+    "main.css": "/moes-portfolio-site/static/css/main.d0a8f414.chunk.css",
+    "main.js": "/moes-portfolio-site/static/js/main.ac11424d.chunk.js",
+    "main.js.map": "/moes-portfolio-site/static/js/main.ac11424d.chunk.js.map",
+    "runtime-main.js": "/moes-portfolio-site/static/js/runtime-main.c4ba0085.js",
+    "runtime-main.js.map": "/moes-portfolio-site/static/js/runtime-main.c4ba0085.js.map",
+    "static/js/2.8d7adf7e.chunk.js": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js",
+    "static/js/2.8d7adf7e.chunk.js.map": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js.map",
     "index.html": "/moes-portfolio-site/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/moes-portfolio-site/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.27c989f6.chunk.js.LICENSE.txt": "/moes-portfolio-site/static/js/2.27c989f6.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/moes-portfolio-site/static/media/logo.6ce24c58.svg"
+    "static/css/main.d0a8f414.chunk.css.map": "/moes-portfolio-site/static/css/main.d0a8f414.chunk.css.map",
+    "static/js/2.8d7adf7e.chunk.js.LICENSE.txt": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js.LICENSE.txt",
+    "static/media/css-logo.9f33c557.png": "/moes-portfolio-site/static/media/css-logo.9f33c557.png",
+    "static/media/js-logo.a2a16f08.png": "/moes-portfolio-site/static/media/js-logo.a2a16f08.png",
+    "static/media/nodeJs-logo.57f1722a.png": "/moes-portfolio-site/static/media/nodeJs-logo.57f1722a.png",
+    "static/media/react-logo.efccb116.png": "/moes-portfolio-site/static/media/react-logo.efccb116.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.86096c1e.js",
-    "static/js/2.27c989f6.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.1e0a8ec8.chunk.js"
+    "static/js/runtime-main.c4ba0085.js",
+    "static/js/2.8d7adf7e.chunk.js",
+    "static/css/main.d0a8f414.chunk.css",
+    "static/js/main.ac11424d.chunk.js"
   ]
 }
