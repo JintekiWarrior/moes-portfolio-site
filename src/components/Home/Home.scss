@@ -1,8 +1,4 @@
-$RichBlack: #042a2b;
-$MaxBlue: #5EB1BF;
-$LightCyan: #CDEDF6;
-$Mandarin: #EF7B45;
-$Vermillion: #D84727;
+@import "./../../colors.scss";
 
 #home-page-container {
   background-color: $RichBlack;
@@ -44,7 +40,6 @@ $Vermillion: #D84727;
 
 #home-aboutme-container {
   margin-top: 15%;
-  height: 50vh;
   width: 100%;
   display: flex;
   background-color: $MaxBlue;
@@ -57,7 +52,7 @@ $Vermillion: #D84727;
 }
 
 #about-me-paragraph-container {
-  width: 30vw;
+  width: 50%;
 }
 
 #about-me-paragraph {

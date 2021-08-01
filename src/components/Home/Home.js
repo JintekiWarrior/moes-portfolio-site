@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import AboutMe from './AboutMe/AboutMe'
 import './Home.scss'
 import reactLogo from './images/react-logo.png'
 import htmlLogo from './images/html-logo.png'
@@ -21,11 +22,7 @@ const Home = () => {
         <div id="home-aboutme-container">
           <h2 id="about-me-heading">About Me</h2>
           <div id="about-me-paragraph-container">
-            <p id="about-me-paragraph">Hello I am a junior web developer looking to get their foot in
-            an amazing industry. I have been studying and coding for 8 months now.
-            I have learnt a ton and continue to do so however feel it's time to put
-            my skills to the test. Unsure yet of what industry I am willing to work
-            in so as long as it allows coding and pays decent I will take the position.</p>
+            <AboutMe />
           </div>
         </div>
         <div id="home-technologies-container">
