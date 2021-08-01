@@ -47,16 +47,12 @@
   align-items: center;
 }
 
-#about-me-heading {
-  font-size: 3rem;
-}
-
-#about-me-paragraph-container {
-  width: 50%;
-}
-
-#about-me-paragraph {
-  font-size: 2rem;
+#home-techno-container {
+  height: 80vh;
+  width: 100%;
+  background-color: $Vermillion;
+  display: flex;
+  justify-content: space-around;
 }
 
 #home-technologies-container {
@@ -66,6 +62,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin-top: 5rem;
 }
 
 #technologies-heading {

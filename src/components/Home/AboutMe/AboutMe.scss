@@ -2,8 +2,7 @@
 
 #aboutMe-button-container {
   display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
+  justify-content: flex-start;
 }
 
 .aboutMe-button {
@@ -12,11 +11,18 @@
   font-size: 2rem;
   border: 2px solid $RichBlack;
   border-radius: 10px;
+  padding: 10px;
+  margin-right: 1rem;
 }
 
 #aboutMe-content-container {
   background-color: $LightCyan;
   height: 50rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
+  border: .5rem solid $Vermillion;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

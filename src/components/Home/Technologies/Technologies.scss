@@ -1,0 +1,20 @@
+@import "./../../../colors.scss";
+
+#technologies-lists-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.technologies-list {
+  background-color: $White;
+  height: 35%;
+  width: 55vw;
+  border: .5rem solid $RichBlack;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.technologies-paragraphs {
+  font-size: 2rem;
+}
