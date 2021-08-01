@@ -11,9 +11,13 @@ import nodeJsLogo from './images/nodeJs-logo.png'
 const Home = () => {
   return (
     <Fragment>
-      <div id="home-page-container">>
-        <h1 id="home-page-heading">Full Stack Web Developer</h1>
-        <div id="home-page-picture"></div>
+      <div id="home-page-container">
+        <h1 id="home-page-heading">My Portfolio Site</h1>
+        <div id="home-description-container">
+          <h3 id="home-description-heading">Moe Yassine <br />
+          <span id="home-description-content">Full Stack Developer/ Software Engineer</span></h3>
+          <div id="home-page-picture"></div>
+        </div>
         <div id="home-aboutme-container">
           <h2 id="about-me-heading">About Me</h2>
           <div id="about-me-paragraph-container">
