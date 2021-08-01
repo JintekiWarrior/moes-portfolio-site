@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import './App.css';
 import Home from './components/Home/Home.js'
 
 class App extends Component {
@@ -16,4 +15,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
