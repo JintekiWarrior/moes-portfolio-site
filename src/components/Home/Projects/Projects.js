@@ -8,15 +8,15 @@ const Projects = () => {
   return (
     <Fragment>
       <div id="project-image-container">
-        <a href="https://jintekiwarrior.github.io/Story_Time_Frontend/">
+        <div><a href="https://jintekiwarrior.github.io/Story_Time_Frontend/">
           <img className="project-image" src={image3} />
-        </a>
-        <a href="https://jintekiwarrior.github.io/createQuiz-client/">
+        </a></div>
+        <div><a href="https://jintekiwarrior.github.io/createQuiz-client/">
           <img className="project-image" src={image2} />
-        </a>
-        <a href="https://boo-leans.github.io/eCommerce-client/">
+        </a></div>
+        <div><a href="https://boo-leans.github.io/eCommerce-client/">
           <img className="project-image" src={image1} />
-        </a>
+        </a></div>
       </div>
     </Fragment>
   )
