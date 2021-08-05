@@ -1,27 +1,37 @@
 @import "./../../../colors.scss";
 
-#aboutMe-button-container {
+#aboutMe-container {
   display: flex;
-  justify-content: flex-start;
+}
+
+#aboutMe-button-container {
+  margin: 0;
+  padding: 1rem;
+  margin-right: 20rem;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .aboutMe-button {
-  background-color: $RichBlack;
-  color: $MaxBlue;
+  background-color: $JetBlack;
+  color: $White;
   font-size: 2rem;
-  border: 2px solid $RichBlack;
-  border-radius: 10px;
+  border: 2px solid $JetBlack;
+  border-radius: 15px;
   padding: 10px;
-  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
 
-#aboutMe-content-container {
-  background-color: $LightCyan;
-  height: 50rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  border: .5rem solid $Vermillion;
-  border-radius: 10px;
+#content-container {
+  box-sizing: border-box;
+  width: 146rem;
+  height: auto;
+  padding: 1rem 2rem;
+  border: 2px solid $Grey;
+  border-radius: 6rem;
+  background-color: $GreyTran;
   display: flex;
   flex-direction: column;
   align-items: center;

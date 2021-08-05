@@ -12,12 +12,12 @@ const AboutMe = () => {
     e.preventDefault()
     setContent({
       name: aboutMeDict[e.target.name].name,
-      body: aboutMeDict[e.target.name].content 
+      body: aboutMeDict[e.target.name].content
     })
   }
 
   return (
-    <Fragment>
+    <div id="aboutMe-container">
       <div id="aboutMe-button-container">
         <button className="aboutMe-button" name="myStory" onClick={buttonEvent}>My Story</button>
         <button className="aboutMe-button" name="programmingCareer" onClick={buttonEvent}>Programming Career</button>
@@ -26,11 +26,11 @@ const AboutMe = () => {
         <button className="aboutMe-button" name="favoriteBooks" onClick={buttonEvent}>Favorite Books</button>
         <button className="aboutMe-button" name="favoriteMovies" onClick={buttonEvent}>Favorite Movies</button>
       </div>
-      <div id="aboutMe-content-container">
-        <h4>{content.name}</h4>
+      <div id="content-container">
+        <h3>{content.name}</h3>
         <p>{content.body}</p>
       </div>
-    </Fragment>
+    </div>
   )
 }
 

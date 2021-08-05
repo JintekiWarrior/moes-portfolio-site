@@ -15,9 +15,7 @@ const Home = () => {
       </div>
       <div id="home-aboutme-container">
         <h2 id="about-me-heading">About Me</h2>
-        <div id="about-me-container">
-          <AboutMe />
-        </div>
+        <AboutMe />
       </div>
       <div id="home-techno-container">
         <h2>Technologies</h2>

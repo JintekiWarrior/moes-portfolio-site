@@ -10,33 +10,30 @@
 
 #home-page-heading {
   margin: 0;
-  color: $LightCyan;
+  color: $MaxBlue;
   font-size: 5rem;
   margin-top: 10rem;
   margin-right: 5rem;
 }
 
 #home-aboutme-container {
+  box-sizing: border-box;
+  padding: 5rem 10rem;
   width: 100%;
-  display: flex;
-  background-color: $MaxBlue;
-  flex-direction: column;
-  align-items: center;
+  background-color: $Ming;
 }
 
 #about-me-heading {
   margin-top: 2%;
-}
+  text-align: center;
+  color: $White;
 
-#about-me-container {
-  margin-bottom: 8%;
-  margin-top: 5%;
 }
 
 #home-techno-container {
   height: 80vh;
   width: 100%;
-  background-color: $Vermillion;
+  background-color: $Grey;
   display: flex;
   justify-content: space-around;
 }
