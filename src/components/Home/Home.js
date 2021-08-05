@@ -9,7 +9,8 @@ const Home = () => {
   return (
     <Fragment>
       <div id="home-description-container">
-        <h1 id="home-page-heading">My Portfolio Site</h1>
+        <h1 id="home-page-heading">Welcome, I am Moe,<br />
+        and I enjoy making websites. </h1>
         <Heading />
       </div>
       <div id="home-aboutme-container">
