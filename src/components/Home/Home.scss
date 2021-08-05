@@ -20,28 +20,41 @@
   box-sizing: border-box;
   padding: 5rem 10rem;
   width: 100%;
-  background-color: $Ming;
-}
-
-#about-me-heading {
-  margin-top: 2%;
-  text-align: center;
-  color: $White;
-
-}
-
-#home-techno-container {
-  height: 80vh;
-  width: 100%;
-  background-color: $Grey;
-  display: flex;
-  justify-content: space-around;
-}
-
-#home-project-container {
   background-color: $MaxBlue;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+#about-me-heading {
+  margin-bottom: 3rem;
+  margin-top: 0;
+  color: $White;
+}
+
+#home-techno-container {
+  box-sizing: border-box;
+  padding: 3rem 5rem;
+  width: 100%;
+  background-color: $White;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#techno-heading {
+  color: $MaxBlue;
+}
+
+#home-project-container {
+  box-sizing: border-box;
+  padding: 3rem 5rem;
+  background-color: $MaxBlue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects-heading {
+  color: $White;
 }

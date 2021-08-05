@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import './AboutMe.scss'
 import { aboutMeDict } from './AboutMeContent'
+import TextBox from './../../style-components/TextBox'
 
 // This component will have 6 buttons with different headings about me. When
 // a button is clicked the content will update with a different explanation.
@@ -26,10 +27,10 @@ const AboutMe = () => {
         <button className="aboutMe-button" name="favoriteBooks" onClick={buttonEvent}>Favorite Books</button>
         <button className="aboutMe-button" name="favoriteMovies" onClick={buttonEvent}>Favorite Movies</button>
       </div>
-      <div id="content-container">
+      <TextBox style={{ width: '75%' }}>
         <h3>{content.name}</h3>
         <p>{content.body}</p>
-      </div>
+      </TextBox>
     </div>
   )
 }

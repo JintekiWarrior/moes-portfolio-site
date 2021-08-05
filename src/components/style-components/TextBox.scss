@@ -1,0 +1,13 @@
+@import './../../colors.scss';
+
+#text-box {
+  box-sizing: border-box;
+  height: auto;
+  padding: 1rem 2rem;
+  border: 2px solid $Grey;
+  border-radius: 6rem;
+  background-color: $GreyTran;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

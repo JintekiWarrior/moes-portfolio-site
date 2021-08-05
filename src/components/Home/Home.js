@@ -18,11 +18,11 @@ const Home = () => {
         <AboutMe />
       </div>
       <div id="home-techno-container">
-        <h2>Technologies</h2>
+        <h2 id="techno-heading">Technologies</h2>
         <Technologies />
       </div>
       <div id="home-project-container">
-        <h2>Projects</h2>
+        <h2 id="projects-heading">Projects</h2>
         <Projects />
       </div>
     </Fragment>
