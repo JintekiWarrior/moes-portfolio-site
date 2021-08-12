@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 import './AboutMe.scss'
 import { aboutMeDict } from './AboutMeContent'
 import TextBox from './../../style-components/TextBox'

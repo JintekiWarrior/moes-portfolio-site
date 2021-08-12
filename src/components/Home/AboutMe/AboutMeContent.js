@@ -32,22 +32,39 @@ export const aboutMeDict = {
   },
   programmingCareer: {
     name:'Programming Career',
-    content: 'Programming career content'
+    content: `
+    Completed a 500+ hour course at GA Assembly. Four projects were made
+    ssome shown below. Completed an Udemy course on Modern React and Redux.`
   },
   education: {
     name: 'Education',
-    content: 'Education Content'
+    content: `
+    Obtained an airframe and powerplant license at Michigan Institute of Aviation
+    technology.
+    Took some courses at Henry FOrd Community College
+    Completed General Assemblies Software Engineering Immersive program.
+    `
   },
   hobbies: {
     name: 'Hobbies',
-    content: 'Things I like to do'
+    content: 'Lift Weights, Rock Climb, Golf, Gaming'
   },
   favoriteBooks: {
     name: 'Favorite Books',
-    content: 'Books I enjoy reading'
+    content: `
+    Catcher in the Rye,
+    Count of Monte Christo,
+    The Great Gatsby,
+    Crime and Punishment
+    `
   },
   favoriteMovies: {
     name: 'Favorite Movies',
-    content: 'Movies I enjoy watching'
+    content: `
+    The Lord Of the Rings Trilogy
+    Star Wars Saga
+    Harry Potter
+    Gaurdians of the Galaxy
+    `
   }
 }
