@@ -58,3 +58,21 @@
 #projects-heading {
   color: $White;
 }
+
+@media screen and (max-width: 480px) {
+  #home-description-container {
+    padding: 2rem;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #home-page-heading {
+    font-size: 6rem;
+    margin: 2rem 0;
+  }
+
+  #home-aboutme-container {
+    padding: 2rem;
+  }
+
+}

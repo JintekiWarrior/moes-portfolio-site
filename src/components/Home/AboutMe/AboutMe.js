@@ -29,7 +29,7 @@ const AboutMe = () => {
       </div>
       <TextBox style={{ width: '75%' }}>
         <h3>{content.name}</h3>
-        <p>{content.body}</p>
+        <p id="content-body">{content.body}</p>
       </TextBox>
     </div>
   )

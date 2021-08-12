@@ -22,3 +22,17 @@
   width: 30rem;
   border-radius: 15px;
 }
+
+#portfolio-pic {
+  height: 100%;
+  border-radius: 2rem;
+  box-shadow: 10px 5px 5px $JetBlack;
+}
+
+@media screen and (max-width: 480px) {
+  #home-page-picture {
+    margin: 2rem 0;
+    height: 40rem;
+    width: 30rem;
+  }
+}

@@ -36,3 +36,23 @@
   flex-direction: column;
   align-items: center;
 }
+
+#content-body {
+  white-space: pre-wrap;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  #aboutMe-container {
+    flex-direction: column;
+  }
+
+  #aboutMe-button-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .aboutMe-button {
+    font-size: 3rem;
+  }
+}
