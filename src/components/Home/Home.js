@@ -1,9 +1,10 @@
+import './Home.scss'
 import React, { Fragment } from 'react'
 import Heading from './Heading/Heading'
 import AboutMe from './AboutMe/AboutMe'
 import Technologies from './Technologies/Technologies'
 import Projects from './Projects/Projects'
-import './Home.scss'
+import Footer from './Footer/Footer'
 
 const Home = () => {
   return (
@@ -24,6 +25,9 @@ const Home = () => {
       <div id="home-project-container">
         <h2 id="projects-heading">Projects</h2>
         <Projects />
+      </div>
+      <div>
+        <Footer />
       </div>
     </Fragment>
   )

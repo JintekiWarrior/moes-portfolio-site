@@ -23,6 +23,11 @@ h4 {
 
 p {
   font-size: 1.8rem;
+  margin: 0;
+}
+
+a {
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 480px) {
