@@ -4,9 +4,9 @@ import './Links.scss'
 // Component will display a link with some text.
 const Links = (props) => {
   return (
-    <div>
-      <a href={props.link}>{props.linkText}</a>
-      <p>{props.text}</p>
+    <div id="links-container">
+      <a id="link-text" href={props.link}>{props.linkText}</a>
+      <p id="text">{props.text}</p>
     </div>
   )
 }

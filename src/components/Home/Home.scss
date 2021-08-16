@@ -59,6 +59,14 @@
   color: $White;
 }
 
+#footer-container {
+  box-sizing: border-box;
+  padding: 3rem 5rem;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 480px) {
   #home-description-container {
     padding: 2rem;

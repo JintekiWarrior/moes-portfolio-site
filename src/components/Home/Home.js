@@ -26,7 +26,7 @@ const Home = () => {
         <h2 id="projects-heading">Projects</h2>
         <Projects />
       </div>
-      <div>
+      <div id="footer-container">
         <Footer />
       </div>
     </Fragment>

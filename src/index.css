@@ -2,6 +2,7 @@ html, body {
   font-size: 62.5%;
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 h1 {

@@ -2,25 +2,25 @@ export const footerContent = [
   {
     id: 1,
     name: "About Me",
-    link: "#",
+    link: "#home-aboutme-container",
     text: "Find out who I am"
   },
   {
     id: 2,
     name: "Technologies",
-    link: "#",
+    link: "#home-techno-container",
     text: "What languages I know"
   },
   {
     id: 3,
     name: "Contact Me",
-    link: "#",
+    link: "mailto:moebusiness93@gmail.com",
     text: "Send me an Email"
   },
   {
     id: 4,
     name: "Projects",
-    link: "#",
+    link: "#home-project-container",
     text: "Examples of my work."
   },
   {
