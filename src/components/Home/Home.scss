@@ -2,34 +2,21 @@
 
 #home-description-container {
   box-sizing: border-box;
-  width: 100%;
   padding: 10rem 1rem;
+  height: 100vh;
+  background: rgb(43,45,66);
+  background: linear-gradient(0deg, rgba(43,45,66,1) 55%, rgba(141,153,174,1) 81%);
   display: flex;
   justify-content: center;
-}
-
-#home-page-heading {
-  margin: 0;
-  color: $MaxBlue;
-  font-size: 5rem;
-  margin-top: 10rem;
-  margin-right: 5rem;
+  align-items: center;
 }
 
 #home-aboutme-container {
   box-sizing: border-box;
-  padding: 5rem 10rem;
+  padding: 10rem 13rem;
   width: 100%;
-  background-color: $MaxBlue;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#about-me-heading {
-  margin-bottom: 3rem;
-  margin-top: 0;
-  color: $White;
+  justify-content: space-around;
 }
 
 #home-techno-container {

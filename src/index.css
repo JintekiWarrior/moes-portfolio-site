@@ -11,6 +11,7 @@ h1 {
 
 h2 {
   font-size: 4rem;
+  margin: 0;
 }
 
 h3 {
@@ -29,6 +30,10 @@ p {
 
 a {
   font-size: 2rem;
+}
+
+hr {
+  width: 80%;
 }
 
 @media screen and (max-width: 480px) {

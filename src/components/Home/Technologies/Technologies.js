@@ -1,28 +1,21 @@
-import React from 'react'
 import './Technologies.scss'
+import React from 'react'
 import TextBox from './../../style-components/TextBox'
+import { technologyContent } from './technologyContent'
+
 
 const Technologies = () => {
 
-  const boxStyle = {
-    width: '100rem',
-    margin: '2rem'
-  }
-
   return (
-    <div id="technologies-lists-container">
-      <TextBox style={boxStyle}>
-        <h3>Front End Technologies</h3>
-        <p className="technologies-paragraphs">Javascript: React / Redux / Jquery / Ajax / Curl-script</p>
-        <p className="technologies-paragraphs">CSS: Bootstrap / SASS</p>
-        <p className="technologies-paragraphs">HTML</p>
-      </TextBox>
-      <TextBox style={boxStyle}>
-        <h3>Back End Technologies</h3>
-        <p className="technologies-paragraphs">NodeJS: express / MongoDB / Mongoose</p>
-        <p className="technologies-paragraphs">Python: Django / PostgreSQL</p>
-      </TextBox>
-    </div>
+    <TextBox>
+      <div id="technologies-lists-container">
+        <h2 id="tech-heading">Technologies</h2>
+        <hr />
+        {technologyContent.map(tech => (
+          <p id="tech-text" key={tech}>{tech}</p>
+        ))}
+      </div>
+    </TextBox>
   )
 }
 

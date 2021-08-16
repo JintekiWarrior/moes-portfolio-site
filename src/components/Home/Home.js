@@ -10,16 +10,10 @@ const Home = () => {
   return (
     <Fragment>
       <div id="home-description-container">
-        <h1 id="home-page-heading">Welcome, I am Moe,<br />
-        and I enjoy making websites. </h1>
         <Heading />
       </div>
       <div id="home-aboutme-container">
-        <h2 id="about-me-heading">About Me</h2>
         <AboutMe />
-      </div>
-      <div id="home-techno-container">
-        <h2 id="techno-heading">Technologies</h2>
         <Technologies />
       </div>
       <div id="home-project-container">

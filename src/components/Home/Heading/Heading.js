@@ -1,13 +1,13 @@
 import React from 'react'
 import './Heading.scss'
-import portfolioPic from './portfolio-pic.jpg'
 
 const Heading = () => {
   return (
     <div id="heading-container">
-      <div id="home-page-picture">
-        <img id="portfolio-pic" src={portfolioPic} alt="Me" />
-      </div>
+      <h1 id="heading-text">
+        Hi, I'm Moe Yassine,<br />
+        And a full stack web developer
+      </h1>
     </div>
   )
 }
