@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/moes-portfolio-site/static/css/main.625cb7c5.chunk.css",
-    "main.js": "/moes-portfolio-site/static/js/main.b018a234.chunk.js",
-    "main.js.map": "/moes-portfolio-site/static/js/main.b018a234.chunk.js.map",
+    "main.css": "/moes-portfolio-site/static/css/main.2404764d.chunk.css",
+    "main.js": "/moes-portfolio-site/static/js/main.c526d07e.chunk.js",
+    "main.js.map": "/moes-portfolio-site/static/js/main.c526d07e.chunk.js.map",
     "runtime-main.js": "/moes-portfolio-site/static/js/runtime-main.c4ba0085.js",
     "runtime-main.js.map": "/moes-portfolio-site/static/js/runtime-main.c4ba0085.js.map",
     "static/js/2.8d7adf7e.chunk.js": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js",
     "static/js/2.8d7adf7e.chunk.js.map": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js.map",
     "index.html": "/moes-portfolio-site/index.html",
-    "static/css/main.625cb7c5.chunk.css.map": "/moes-portfolio-site/static/css/main.625cb7c5.chunk.css.map",
+    "static/css/main.2404764d.chunk.css.map": "/moes-portfolio-site/static/css/main.2404764d.chunk.css.map",
     "static/js/2.8d7adf7e.chunk.js.LICENSE.txt": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js.LICENSE.txt",
     "static/media/beats-by-dwight.11ba1f2f.PNG": "/moes-portfolio-site/static/media/beats-by-dwight.11ba1f2f.PNG",
     "static/media/portfolio-pic.9ce473d2.jpg": "/moes-portfolio-site/static/media/portfolio-pic.9ce473d2.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.c4ba0085.js",
     "static/js/2.8d7adf7e.chunk.js",
-    "static/css/main.625cb7c5.chunk.css",
-    "static/js/main.b018a234.chunk.js"
+    "static/css/main.2404764d.chunk.css",
+    "static/js/main.c526d07e.chunk.js"
   ]
 }
