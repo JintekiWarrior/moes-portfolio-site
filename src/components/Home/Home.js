@@ -17,7 +17,6 @@ const Home = () => {
         <Technologies />
       </div>
       <div id="home-project-container">
-        <h2 id="projects-heading">Projects</h2>
         <Projects />
       </div>
       <div id="footer-container">

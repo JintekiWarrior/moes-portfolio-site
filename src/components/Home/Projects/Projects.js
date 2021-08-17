@@ -10,10 +10,11 @@ const Projects = () => {
 
   return (
     <Fragment>
+      <h2 id="projects-heading">Projects</h2>
       <div id="project-image-container">
         <div className="project-content">
           <TextBox style={{ width: "100%"}}>
-            <h3>{projectContent.storyTime.name}</h3>
+            <h3 className="text-heading">{projectContent.storyTime.name}</h3>
             <p>{projectContent.storyTime.summary}</p>
             <p>{projectContent.storyTime.frontTools}</p>
             <p>{projectContent.storyTime.backTools}</p>
@@ -24,7 +25,7 @@ const Projects = () => {
         </div>
         <div className="project-content">
           <TextBox style={{ width: "100%"}}>
-            <h3>{projectContent.quizCrafter.name}</h3>
+            <h3 className="text-heading">{projectContent.quizCrafter.name}</h3>
             <p>{projectContent.quizCrafter.summary}</p>
             <p>{projectContent.quizCrafter.frontTools}</p>
             <p>{projectContent.quizCrafter.backTools}</p>
@@ -35,7 +36,7 @@ const Projects = () => {
         </div>
         <div className="project-content">
           <TextBox style={{ width: "100%"}}>
-            <h3>{projectContent.ecommerceSite.name}</h3>
+            <h3 className="text-heading">{projectContent.ecommerceSite.name}</h3>
             <p>{projectContent.ecommerceSite.summary}</p>
             <p>{projectContent.ecommerceSite.frontTools}</p>
             <p>{projectContent.ecommerceSite.backTools}</p>

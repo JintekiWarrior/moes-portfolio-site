@@ -11,21 +11,8 @@
   text-align: center;
 }
 
-#home-description-content {
-  font-size: 2.5rem;
-}
-
-#home-page-picture {
-  background-color: $MaxBlue;
-  height: 40rem;
-  width: 30rem;
-  border-radius: 15px;
-}
-
-#portfolio-pic {
-  height: 100%;
-  border-radius: 2rem;
-  box-shadow: 10px 5px 5px $JetBlack;
+#heading-name {
+  color: $Red;
 }
 
 @media screen and (max-width: 480px) {

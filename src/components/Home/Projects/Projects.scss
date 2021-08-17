@@ -1,5 +1,11 @@
 @import "./../../../colors.scss";
 
+
+#projects-heading {
+  color: $White;
+  margin-bottom: 2rem;
+}
+
 #project-image-container {
   margin: 0;
   width: 80%;
@@ -12,9 +18,17 @@
   display: flex;
 }
 
+.text-heading {
+  margin-bottom: 2rem;
+}
+
 .project-image {
   height: 20rem;
   margin-left: 2rem;
-  border: 4px solid $White;
-  border-radius: 6rem;
+  border: 4px solid $AliceBlue;
+  transition: transform .5s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
