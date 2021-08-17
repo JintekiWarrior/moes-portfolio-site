@@ -2,7 +2,7 @@
   "name": "moes-portfoio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jintekiwarrior.github.io/moes-portfolio-site",
+  "homepage": "http://jintekiwarrior.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
