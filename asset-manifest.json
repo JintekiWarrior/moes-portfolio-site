@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/moes-portfolio-site/static/css/main.2404764d.chunk.css",
-    "main.js": "/moes-portfolio-site/static/js/main.c526d07e.chunk.js",
-    "main.js.map": "/moes-portfolio-site/static/js/main.c526d07e.chunk.js.map",
-    "runtime-main.js": "/moes-portfolio-site/static/js/runtime-main.c4ba0085.js",
-    "runtime-main.js.map": "/moes-portfolio-site/static/js/runtime-main.c4ba0085.js.map",
-    "static/js/2.8d7adf7e.chunk.js": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js",
-    "static/js/2.8d7adf7e.chunk.js.map": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js.map",
-    "index.html": "/moes-portfolio-site/index.html",
-    "static/css/main.2404764d.chunk.css.map": "/moes-portfolio-site/static/css/main.2404764d.chunk.css.map",
-    "static/js/2.8d7adf7e.chunk.js.LICENSE.txt": "/moes-portfolio-site/static/js/2.8d7adf7e.chunk.js.LICENSE.txt",
-    "static/media/beats-by-dwight.11ba1f2f.PNG": "/moes-portfolio-site/static/media/beats-by-dwight.11ba1f2f.PNG",
-    "static/media/portfolio-pic.9ce473d2.jpg": "/moes-portfolio-site/static/media/portfolio-pic.9ce473d2.jpg",
-    "static/media/quiz-crafter.eaee4a0e.PNG": "/moes-portfolio-site/static/media/quiz-crafter.eaee4a0e.PNG",
-    "static/media/story-time.70c845d0.PNG": "/moes-portfolio-site/static/media/story-time.70c845d0.PNG"
+    "main.css": "/portfolio/static/css/main.2404764d.chunk.css",
+    "main.js": "/portfolio/static/js/main.c526d07e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c526d07e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.04de96ce.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.04de96ce.js.map",
+    "static/js/2.8d7adf7e.chunk.js": "/portfolio/static/js/2.8d7adf7e.chunk.js",
+    "static/js/2.8d7adf7e.chunk.js.map": "/portfolio/static/js/2.8d7adf7e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.2404764d.chunk.css.map": "/portfolio/static/css/main.2404764d.chunk.css.map",
+    "static/js/2.8d7adf7e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8d7adf7e.chunk.js.LICENSE.txt",
+    "static/media/beats-by-dwight.11ba1f2f.PNG": "/portfolio/static/media/beats-by-dwight.11ba1f2f.PNG",
+    "static/media/portfolio-pic.9ce473d2.jpg": "/portfolio/static/media/portfolio-pic.9ce473d2.jpg",
+    "static/media/quiz-crafter.eaee4a0e.PNG": "/portfolio/static/media/quiz-crafter.eaee4a0e.PNG",
+    "static/media/story-time.70c845d0.PNG": "/portfolio/static/media/story-time.70c845d0.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4ba0085.js",
+    "static/js/runtime-main.04de96ce.js",
     "static/js/2.8d7adf7e.chunk.js",
     "static/css/main.2404764d.chunk.css",
     "static/js/main.c526d07e.chunk.js"
