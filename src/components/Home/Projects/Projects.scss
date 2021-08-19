@@ -6,25 +6,24 @@
   margin-bottom: 2rem;
 }
 
-#project-image-container {
-  margin: 0;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-}
-
-.project-content {
-  margin-bottom: 2rem;
+#project-container {
+  margin-top: 2rem;
+  width: 70%;
   display: flex;
 }
 
-.text-heading {
-  margin-bottom: 2rem;
+#content-container {
+  height: 21rem;
+  width: 60%;
 }
 
-.project-image {
+#image-container {
   height: 20rem;
-  margin-left: 2rem;
+}
+
+#project-image {
+  height: 100%;
+  margin-left: 3rem;
   border: 4px solid $AliceBlue;
   transition: transform .5s ease;
 

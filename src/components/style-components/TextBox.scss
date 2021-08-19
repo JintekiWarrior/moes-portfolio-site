@@ -2,7 +2,8 @@
 
 #text-box {
   box-sizing: border-box;
-  height: auto;
+  height: 100%;
+  width: 100%;
   padding: 1rem 2rem;
   background-color: $AliceBlue;
   display: flex;
