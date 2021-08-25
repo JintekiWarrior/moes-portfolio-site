@@ -6,29 +6,41 @@
   margin-bottom: 2rem;
 }
 
-#project-container {
-  margin-top: 2rem;
-  width: 70%;
+#projects-container {
   display: flex;
   justify-content: space-between;
 }
 
-#content-container {
-  height: 21rem;
-  width: 60%;
+#project {
+  box-sizing: border-box;
+  // margin: 2rem;
+  max-width: 60rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #image-container {
-  height: 20rem;
+  height: 25rem;
+  margin-bottom: 3rem;
 }
 
 #project-image {
   height: 100%;
-  margin-left: 3rem;
   border: 4px solid $AliceBlue;
   transition: transform .5s ease;
 
   &:hover {
     transform: scale(1.1);
   }
+}
+
+#project-heading {
+  display: inline;
+  margin-bottom: 1.5rem;
+}
+
+#project-content {
+  font-size: 2rem;
 }
