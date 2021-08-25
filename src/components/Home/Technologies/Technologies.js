@@ -11,7 +11,7 @@ const Technologies = () => {
       <TextBox>
         <div id="technologies-lists-container">
           <h2 id="tech-heading">Technologies</h2>
-          <hr />
+          <hr id="hr-line" />
           {technologyContent.map(tech => (
             <p id="tech-text" key={tech}>{tech}</p>
           ))}
