@@ -15,10 +15,8 @@
   color: $Red;
 }
 
-@media screen and (max-width: 480px) {
-  #home-page-picture {
-    margin: 2rem 0;
-    height: 40rem;
-    width: 30rem;
+@media screen and (max-width: 420px) {
+  #heading-text {
+    font-size: 10rem;
   }
 }
