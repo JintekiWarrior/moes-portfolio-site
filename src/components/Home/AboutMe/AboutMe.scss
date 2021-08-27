@@ -12,7 +12,7 @@
 }
 
 #portfolioPic {
-  height: 25rem;
+  height: 50rem;
   border-radius: 3rem;
   margin: 2rem 0;
 }
@@ -28,6 +28,14 @@
   white-space: pre-wrap;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
+  #aboutMe-content-container {
+    box-sizing: border-box;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
 
+  #aboutMe-content {
+    font-size: 6rem;
+  }
 }
