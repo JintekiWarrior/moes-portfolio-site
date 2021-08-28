@@ -19,3 +19,14 @@
   font-size: 2rem;
   margin-top: 1rem;
 }
+
+@media only screen and (max-width: 420px) {
+  #technologies-lists-container {
+    padding: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  #tech-text {
+    font-size: 6rem;
+  }
+}
