@@ -13,7 +13,6 @@
 
 #project {
   box-sizing: border-box;
-  // margin: 2rem;
   max-width: 60rem;
   padding: 2rem;
   display: flex;
@@ -43,4 +42,28 @@
 
 #project-content {
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 420px) {
+  #projects-heading {
+    margin-bottom: 5rem;
+  }
+
+  #projects-container {
+    flex-direction: column;
+  }
+
+  #project {
+    max-width: 108rem;
+    margin-bottom: 10rem;
+  }
+
+  #image-container {
+    height: 50rem;
+    margin-bottom: 7rem;
+  }
+
+  #project-content {
+    font-size: 5rem;
+  }
 }
