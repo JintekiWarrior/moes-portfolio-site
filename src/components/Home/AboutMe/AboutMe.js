@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import './AboutMe.scss'
 import { aboutMeDict } from './AboutMeContent'
-import TextBox from './../../style-components/TextBox'
 import portfolioPic from './portfolio-pic.jpg'
 
 // This component will have 6 buttons with different headings about me. When

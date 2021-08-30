@@ -9,18 +9,20 @@ import Footer from './Footer/Footer'
 const Home = () => {
   return (
     <Fragment>
-      <div id="home-description-container">
-        <Heading />
-      </div>
-      <div id="home-aboutme-container">
-        <AboutMe />
-        <Technologies />
-      </div>
-      <div id="home-project-container">
-        <Projects />
-      </div>
-      <div id="footer-container">
-        <Footer />
+      <div id="home-page-container">
+        <div id="home-description-container">
+          <Heading />
+        </div>
+        <div id="home-aboutme-container">
+          <AboutMe />
+          <Technologies />
+        </div>
+        <div id="home-project-container">
+          <Projects />
+        </div>
+        <div id="footer-container">
+          <Footer />
+        </div>
       </div>
     </Fragment>
   )

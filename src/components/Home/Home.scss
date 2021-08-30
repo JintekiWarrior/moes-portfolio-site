@@ -35,28 +35,22 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 420px) {
-  #home-description-container {
-    padding: 2rem;
-    height: 300vh;
-    width: 300vw;
-  }
-
-  #home-page-heading {
-    font-size: 6rem;
-    margin: 2rem 0;
+@media only screen and (max-width: 360px) {
+  #home-page-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 3px;
   }
 
   #home-aboutme-container {
     flex-direction: column;
-    padding: 3rem;
-    width: 108rem;
+    padding: 3rem 1rem;
     margin-bottom: 20rem;
   }
-  #home-project-container {
-    padding: 2rem;
-    width: 108rem;
-    margin-bottom: 20rem;
-  }
-
+//   #home-project-container {
+//     padding: 2rem;
+//     width: 108rem;
+//     margin-bottom: 20rem;
+//   }
+//
 }

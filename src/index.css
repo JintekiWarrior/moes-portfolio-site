@@ -2,7 +2,6 @@
 
 html, body {
   font-size: 62.5%;
-  height: 100%;
   margin: 0;
   scroll-behavior: smooth;
   font-family: 'STIX Two Text', serif;
@@ -41,9 +40,12 @@ hr {
   width: 80%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 3rem;
+  }
   h2 {
-    font-size: 8rem;
+    font-size: 2.5rem;
   }
 
   h3 {
@@ -51,6 +53,6 @@ hr {
   }
 
   p {
-    font-size: 5rem;
+    font-size: 1.6rem;
   }
 }

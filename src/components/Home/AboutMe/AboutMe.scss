@@ -23,19 +23,22 @@
 }
 
 #aboutMe-content {
-  font-size: 2rem;
   line-height: 130%;
   white-space: pre-wrap;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 360px) {
   #aboutMe-content-container {
     box-sizing: border-box;
-    padding: 2rem;
     margin-bottom: 3rem;
   }
 
-  #aboutMe-content {
-    font-size: 6rem;
+  #portfolioPic {
+    height: 25rem;
   }
+
+  #aboutMe-content {
+    font-size: 2rem;
+  }
+
 }
