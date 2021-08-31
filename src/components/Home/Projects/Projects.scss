@@ -44,26 +44,26 @@
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 420px) {
-  #projects-heading {
-    margin-bottom: 5rem;
-  }
-
+@media only screen and (max-width: 360px) {
   #projects-container {
     flex-direction: column;
   }
 
   #project {
-    max-width: 108rem;
-    margin-bottom: 10rem;
+    max-width: 100%;
+    padding: 1rem;
   }
 
   #image-container {
-    height: 50rem;
-    margin-bottom: 7rem;
+    height: 100%;
+    margin-bottom: 2rem;
   }
 
-  #project-content {
-    font-size: 5rem;
+  #project-image {
+    height: 15rem;
+  }
+
+  #project-heading {
+
   }
 }

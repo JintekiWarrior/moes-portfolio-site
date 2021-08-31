@@ -1,8 +1,5 @@
 import React, { Fragment } from 'react'
 import './Projects.scss'
-// import image1 from './images/beats-by-dwight.PNG'
-// import image2 from './images/quiz-crafter.PNG'
-// import image3 from './images/story-time.PNG'
 import { projectContent } from './ProjectsContent'
 
 const Projects = () => {

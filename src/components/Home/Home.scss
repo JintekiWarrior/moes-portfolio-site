@@ -45,12 +45,15 @@
   #home-aboutme-container {
     flex-direction: column;
     padding: 3rem 1rem;
-    margin-bottom: 20rem;
   }
-//   #home-project-container {
-//     padding: 2rem;
-//     width: 108rem;
-//     margin-bottom: 20rem;
-//   }
+
+  #home-project-container {
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #footer-container {
+    padding: 3rem 1rem;
+  }
 //
 }
