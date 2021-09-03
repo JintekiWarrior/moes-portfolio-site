@@ -1,6 +1,7 @@
 import './Home.scss'
 import React, { Fragment } from 'react'
 import Heading from './Heading/Heading'
+import Navbar from './Navbar/Navbar'
 import AboutMe from './AboutMe/AboutMe'
 import Technologies from './Technologies/Technologies'
 import Projects from './Projects/Projects'

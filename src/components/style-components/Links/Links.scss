@@ -1,3 +1,5 @@
+@import "./../../../colors.scss";
+
 #links-container {
   display: flex;
   flex-direction: column;
@@ -5,8 +7,17 @@
 }
 
 #link-text {
+  color: $MaxBlue;
   margin-bottom: .3em;
   text-decoration: none;
+
+  &:hover {
+    transform: scale(1.2)
+  }
+
+  &:visited {
+    color: $Red;
+  }
 }
 
 @media only screen and (max-width: 360px) {
