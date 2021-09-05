@@ -3,23 +3,7 @@
 #aboutMe-content-container {
   margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#aboutMe-header {
-  display: flex;
-  align-items: center;
-}
-
-#icon-container {
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-}
-
-i.icon {
-  font-size: 5rem;
+  justify-content: space-around;
 }
 
 #aboutMe-heading {
@@ -27,19 +11,24 @@ i.icon {
 }
 
 #portfolioPic {
-  height: 30rem;
+  height: 50rem;
   border-radius: 3rem;
   margin: 2rem 0;
 }
 
-
-#aboutMe-para-container {
-  box-sizing: border-box;
-  text-align: center;
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+// #aboutMe-para-container {
+//   box-sizing: border-box;
+// }
+
 #aboutMe-content {
-  line-height: 130%;
+  line-height: 150%;
+  font-size: 1.8rem;
   white-space: pre-wrap;
 }
 
