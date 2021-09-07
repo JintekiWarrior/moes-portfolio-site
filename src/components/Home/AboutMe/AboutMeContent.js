@@ -1,8 +1,8 @@
 export const aboutMeDict = {
   myStory: {
     name: 'My Story',
-    content: `
-    My interest in computers and tech came at an early age when I began to learn python and made
+    content:
+    `My interest in computers and tech came at an early age when I began to learn python and made
     some applications using it. I attended college for a while to pursue a computer science degree however,
     some other complications rose and I could never finish my degree. Instead I joined the workforce and did
     other things for a while with my proffessional life learning many skills, life lessons, and gaining a
@@ -16,7 +16,7 @@ export const aboutMeDict = {
 
     Having a growth mindset it the way I have always been. Striving to be the best I can,
     while bieng honest and respectful to those around me. I maintain such growth by reading,
-    researching, and of course exchanging knowledge with other like minded indivduals. `
+    researching, and of course exchanging knowledge with other like minded indivduals.`
   },
   programmingCareer: {
     name:'Programming Career',
