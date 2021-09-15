@@ -1,52 +1,49 @@
 @import "./../../../colors.scss";
 
 #aboutMe-content-container {
-  margin: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 #aboutMe-heading {
   margin: 1.5rem 0;
 }
 
-#portfolioPic {
-  height: 50rem;
+#aboutMe-picture {
+  height: 50%;
+  width: 35%;
+}
+
+#portfolio-pic {
+  height: 100%;
+  width: 100%;
   border-radius: 2rem;
-  margin: 2rem 0;
+  margin: 0;
 }
 
 #content-container {
+  box-sizing: border-box;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-// #aboutMe-para-container {
-//   box-sizing: border-box;
-// }
+#aboutMe-para-container {
+  box-sizing: border-box;
+  padding: 1% 10%;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
 
-#aboutMe-content {
+#content {
   line-height: 150%;
-  font-size: 1.8rem;
-  white-space: pre-wrap;
-}
-
-@media only screen and (max-width: 360px) {
-  #aboutMe-content-container {
-    box-sizing: border-box;
-    margin-bottom: 3rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #portfolioPic {
-    height: 23rem;
-  }
-
-  #aboutMe-content {
-    font-size: 2rem;
-    white-space: pre-wrap;
-  }
-
+  font-size: 85%;
+  margin-bottom: 2rem;
 }

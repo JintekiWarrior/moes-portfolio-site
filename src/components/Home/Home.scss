@@ -1,24 +1,38 @@
 @import "./../../colors.scss";
 
+#home-page-container {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0 5%;
+}
+
 #home-description-container {
   box-sizing: border-box;
-  padding: 10rem 1rem;
-  height: 100vh;
+  height: calc(100% / 4);
+  width: 100%;
+  margin: 0 auto;
+  padding: 10% 10%;
   background-image: url('./Heading/background.png');
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 #home-aboutme-container {
   box-sizing: border-box;
-  padding: 10rem 13rem;
+  padding: 3% 5%;
+  height: calc(100% / 4.5);
   width: 100%;
 }
 
 #home-project-container {
   box-sizing: border-box;
-  padding: 10rem 13rem;
+  height: calc(100% / 2.2);
+  width: 100%;
+  margin: 0 auto;
+  padding: 5% 15%;
   background-color: $Grey;
   display: flex;
   flex-direction: column;
@@ -33,25 +47,15 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 360px) {
-  #home-page-container {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 3px;
-  }
 
-  #home-aboutme-container {
-    flex-direction: column;
-    padding: 3rem 1rem;
-  }
+/* height: 1200px */
+@media only screen and (max-width: 1024px) {
+}
 
-  #home-project-container {
-    padding: 3rem 1rem;
-    margin-bottom: 2rem;
-  }
+/* height: 1024px */
+@media only screen and (max-width: 768px) {
+}
 
-  #footer-container {
-    padding: 3rem 1rem;
-  }
-//
+/* height: 480px */
+@media only screen and (max-width: 375px) {
 }

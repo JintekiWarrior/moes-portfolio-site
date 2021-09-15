@@ -15,8 +15,10 @@ const Projects = () => {
               <img id="project-image" src={project.image} alt={project.summary} />
             </a>
           </div>
-          <h3 id="project-heading">{project.name}</h3>
-          <p id="project-content">{project.summary}</p>
+          <div id="project-content-container">
+            <h3 id="project-heading">{project.name}</h3>
+            <p id="project-content">{project.summary}</p>
+          </div>
         </div>
       ))}
       </div>

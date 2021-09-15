@@ -11,12 +11,14 @@ const AboutMe = () => {
     <Fragment>
       <div id="aboutMe-content-container">
         <div id="aboutMe-picture">
-          <img id="portfolioPic" src={portfolioPic} alt="Picture of me" />
+          <img id="portfolio-pic" src={portfolioPic} alt="Picture of me" />
         </div>
         <div id="content-container">
           <h2 id="aboutMe-heading">About Me</h2>
           <div id="aboutMe-para-container">
-            <p id="aboutMe-content">{aboutMeDict.myStory.content}</p>
+            {aboutMeDict.content.map(para => (
+              <p id="content" key={para.id}>{para.paragraph}</p>
+            ))}
           </div>
         </div>
       </div>
