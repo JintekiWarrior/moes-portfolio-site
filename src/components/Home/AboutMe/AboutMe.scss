@@ -2,27 +2,26 @@
 
 #aboutMe-content-container {
   height: 100%;
-  width: 100%;
-  margin: 1% 0;
-  padding: 5% 20%;
+
+  padding: 10% 20%;
 }
 
 #aboutMe-heading {
-  margin: 2rem 0;
-  text-align: center;
+  margin: 1.5rem 0;
 }
 
 #aboutMe-picture {
-  height: 30vh;
-  margin: 1rem;
+  height: 30rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+
   float: left;
-  margin-right: 2rem;
 }
 
 #portfolio-pic {
   height: 100%;
-  width: 100%;
   border-radius: 2rem;
+  margin: 0;
 }
 
 #content {
