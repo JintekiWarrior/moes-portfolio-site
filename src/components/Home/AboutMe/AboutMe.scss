@@ -3,47 +3,28 @@
 #aboutMe-content-container {
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  margin: 1% 0;
+  padding: 5% 20%;
 }
 
 #aboutMe-heading {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
+  text-align: center;
 }
 
 #aboutMe-picture {
-  height: 50%;
-  width: 35%;
+  height: 30vh;
+  margin: 1rem;
+  float: left;
+  margin-right: 2rem;
 }
 
 #portfolio-pic {
   height: 100%;
   width: 100%;
   border-radius: 2rem;
-  margin: 0;
-}
-
-#content-container {
-  box-sizing: border-box;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#aboutMe-para-container {
-  box-sizing: border-box;
-  padding: 1% 10%;
-  height: 100%;
-  width: 100%;
-  font-size: 2rem;
 }
 
 #content {
-  line-height: 150%;
-  font-size: 85%;
   margin-bottom: 2rem;
 }

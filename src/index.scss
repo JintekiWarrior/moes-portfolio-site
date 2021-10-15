@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;600&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'STIX Two Text', serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'STIX Two Text', serif;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+a {
+  font-size: 2rem;
+}
+
+hr {
+  width: 80%;
+}
+
+p {
+  font-size: 1.8rem;
+}

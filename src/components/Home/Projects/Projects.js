@@ -6,8 +6,8 @@ const Projects = () => {
 
   return (
     <Fragment>
-      <h2 id="projects-heading">Projects</h2>
       <div id="projects-container">
+      <h2 id="projects-heading">Projects</h2>
       {projectContent.map(project => (
         <div id="project" key={project.id}>
           <div id="image-container">

@@ -13,14 +13,10 @@ const AboutMe = () => {
         <div id="aboutMe-picture">
           <img id="portfolio-pic" src={portfolioPic} alt="Picture of me" />
         </div>
-        <div id="content-container">
-          <h2 id="aboutMe-heading">About Me</h2>
-          <div id="aboutMe-para-container">
-            {aboutMeDict.content.map(para => (
-              <p id="content" key={para.id}>{para.paragraph}</p>
-            ))}
-          </div>
-        </div>
+        <h2 id="aboutMe-heading">About Me</h2>
+        {aboutMeDict.content.map(para => (
+          <p id="content" key={para.id}>{para.paragraph}</p>
+        ))}
       </div>
     </Fragment>
   )
