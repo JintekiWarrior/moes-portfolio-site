@@ -1,14 +1,15 @@
 @import "./../../../colors.scss";
 
 #links-container {
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 #link-text {
   color: $MaxBlue;
-  margin-bottom: .3em;
   text-decoration: none;
 
   &:hover {

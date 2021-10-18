@@ -1,14 +1,7 @@
 @import "./../../../colors.scss";
 
 #link-component-container {
-  width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 360px) {
-  #link-component-container {
-    height: 100%;
-    flex-direction: column;
-  }
-}

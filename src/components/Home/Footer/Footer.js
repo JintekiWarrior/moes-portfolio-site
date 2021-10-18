@@ -10,6 +10,7 @@ const Footer = (props) => {
       <div id="link-component-container">
         {footerContent.map(content => (
           <Links
+            id="flex-links" 
             key={content.id}
             link={content.link}
             linkText={content.name}
