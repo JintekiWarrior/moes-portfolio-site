@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ad1cb18a.chunk.css",
+    "main.css": "/portfolio/static/css/main.86b0a7a3.chunk.css",
     "main.js": "/portfolio/static/js/main.89a4dbfd.chunk.js",
     "main.js.map": "/portfolio/static/js/main.89a4dbfd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.04de96ce.js",
@@ -8,7 +8,7 @@
     "static/js/2.8d7adf7e.chunk.js": "/portfolio/static/js/2.8d7adf7e.chunk.js",
     "static/js/2.8d7adf7e.chunk.js.map": "/portfolio/static/js/2.8d7adf7e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.ad1cb18a.chunk.css.map": "/portfolio/static/css/main.ad1cb18a.chunk.css.map",
+    "static/css/main.86b0a7a3.chunk.css.map": "/portfolio/static/css/main.86b0a7a3.chunk.css.map",
     "static/js/2.8d7adf7e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8d7adf7e.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/portfolio/static/media/background.e88cac6e.png",
     "static/media/beats-by-dwight.11ba1f2f.PNG": "/portfolio/static/media/beats-by-dwight.11ba1f2f.PNG",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.04de96ce.js",
     "static/js/2.8d7adf7e.chunk.js",
-    "static/css/main.ad1cb18a.chunk.css",
+    "static/css/main.86b0a7a3.chunk.css",
     "static/js/main.89a4dbfd.chunk.js"
   ]
 }
