@@ -2,7 +2,8 @@
 
 #aboutMe-content-container {
   height: 100%;
-  padding: 10% 0;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #aboutMe-heading {
@@ -10,9 +11,11 @@
 }
 
 #aboutMe-picture {
-  height: 20rem;
+  height: 25rem;
   margin-right: 3rem;
   margin-bottom: 2rem;
+
+  float: left;
 }
 
 #portfolio-pic {
